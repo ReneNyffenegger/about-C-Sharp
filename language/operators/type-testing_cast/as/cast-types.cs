@@ -28,7 +28,7 @@ class Prg {
      // ---------------------------------------------------------------
 
         Derived_B x = b as Derived_B;
-        if (x is null) {
+        if (x == null) {
            Console.WriteLine("Cast didn't succeed");
         }
         else {
@@ -41,7 +41,7 @@ class Prg {
      // ---------------------------------------------------------------
 
         Base y = da as Base;
-        if (y is null) {
+        if (y == null) {
            Console.WriteLine("Cast didn't succeed");
         }
         else {
@@ -56,7 +56,7 @@ class Prg {
      // ---------------------------------------------------------------
 
         Derived_A z = db as Derived_A;
-        if (z is null) {
+        if (z == null) {
            Console.WriteLine("Cast didn't succeed");
         }
         else {
